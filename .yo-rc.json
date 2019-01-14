@@ -8,7 +8,7 @@
     "baseName": "gateway",
     "packageName": "com.mycompany.myapp",
     "packageFolder": "com/mycompany/myapp",
-    "serverPort": "8080",
+    "serverPort": "8081",
     "authenticationType": "jwt",
     "cacheProvider": "hazelcast",
     "enableHibernateCache": false,
@@ -21,7 +21,7 @@
     "serviceDiscoveryType": "eureka",
     "buildTool": "maven",
     "enableSwaggerCodegen": false,
-    "jwtSecretKey": "MDlkYjkxOGU3YjZhMGM1NWMyODdmNTM4NDhhNmNjMmEyMTNmY2U1ZjM3MTU3YWM0ZDQ1MmY4YWY0YTQ1YzJjMjUwZjY1MzQwNzhlZGNiN2VmNTVmNzZmYmVjYTZjYWUyNzE5NDk4YWFhYjEyM2QyYjVkZTNjOTU1Nzg1NzQwMjU=",
+    "jwtSecretKey": "MTVjYTk0ODc4YWMwYTQ2NjViYTE4NTA0MTkyMDA1ZjBhNDAxNTExNzYxOGY2NjEyMWVhMWY5MjhjYjgzNDc5YjJlMTI0M2EzMmI3NTI4YzQ1YzYyYTJmYTkwMWFkYmI2ZmY0OTM1YzkwZjg1ZTZmNWExZTJlOTI2YzE1YTYwMjI=",
     "testFrameworks": [
       "gatling"
     ],
