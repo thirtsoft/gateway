@@ -1,33 +1,34 @@
 {
-    "generator-jhipster": {
-        "promptValues": {
-            "packageName": "com.mycompany.myapp"
-        },
-        "jhipsterVersion": "5.7.2",
-        "applicationType": "gateway",
-        "baseName": "gateway",
-        "packageName": "com.mycompany.myapp",
-        "packageFolder": "com/mycompany/myapp",
-        "serverPort": "8080",
-        "authenticationType": "jwt",
-        "cacheProvider": "hazelcast",
-        "enableHibernateCache": false,
-        "websocket": false,
-        "databaseType": "sql",
-        "devDatabaseType": "h2Disk",
-        "prodDatabaseType": "mysql",
-        "searchEngine": "elasticsearch",
-        "messageBroker": false,
-        "serviceDiscoveryType": "eureka",
-        "buildTool": "maven",
-        "enableSwaggerCodegen": false,
-        "jwtSecretKey": "NGFiZTg2MzUxNzllZThjZjQxNzg4YzQzYzJhZmE1ZjIwODY0ODUzZTYxNDlkZmU4Nzc1MWE4MTU3NjlkYmEzZTYzOTk2NjA3NzRlYWQwZTU2MmMxOTVjNGRiMGNiYjc0NWI0MzJhOTJhOWExOTkwMzQxYjFmYWQ4NzQyMWQ1MDc=",
-        "clientFramework": "angularX",
-        "useSass": false,
-        "clientPackageManager": "npm",
-        "testFrameworks": ["gatling", "protractor"],
-        "jhiPrefix": "jhi",
-        "otherModules": [],
-        "enableTranslation": false
-    }
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.mycompany.myapp"
+    },
+    "jhipsterVersion": "5.7.2",
+    "applicationType": "gateway",
+    "baseName": "gateway",
+    "packageName": "com.mycompany.myapp",
+    "packageFolder": "com/mycompany/myapp",
+    "serverPort": "8080",
+    "authenticationType": "jwt",
+    "cacheProvider": "hazelcast",
+    "enableHibernateCache": false,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "mysql",
+    "searchEngine": "elasticsearch",
+    "messageBroker": false,
+    "serviceDiscoveryType": "eureka",
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "MDlkYjkxOGU3YjZhMGM1NWMyODdmNTM4NDhhNmNjMmEyMTNmY2U1ZjM3MTU3YWM0ZDQ1MmY4YWY0YTQ1YzJjMjUwZjY1MzQwNzhlZGNiN2VmNTVmNzZmYmVjYTZjYWUyNzE5NDk4YWFhYjEyM2QyYjVkZTNjOTU1Nzg1NzQwMjU=",
+    "testFrameworks": [
+      "gatling"
+    ],
+    "jhiPrefix": "jhi",
+    "otherModules": [],
+    "enableTranslation": false,
+    "clientPackageManager": "npm",
+    "skipClient": true
+  }
 }
