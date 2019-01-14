@@ -21,7 +21,7 @@
     "serviceDiscoveryType": "eureka",
     "buildTool": "maven",
     "enableSwaggerCodegen": false,
-    "jwtSecretKey": "MDU1NTliNzU0OTMyZmVkMjkxNTcyNTkyN2NhM2RmZmUwNmU3NmVhZGM5Yjc3MTQyMmIzNWFhN2JiNWIwNzc3YTdjZDg5YTdlMTc1OWI3NDc3NmQ4ODNkMzA5YzRhNTAxZGEyYTVlYmY1MDcwMjNjNjgwNDY1NDdjODAxOWM5ODE=",
+    "jwtSecretKey": "MjE4NDg4OTI5OGY2MjY5YmFkYzY2ZWQxMTcyN2I0MzhlOTY3MmFiMTBkODkxZTgwMmRkNmY4MDY1MGNjYmNjZGQ4ZmFhYTlkZGM2Zjc4YTdhMTYyMzE2NzA3Y2E3YzFmYTdjMzQ3ZmNjNDMxMzcyZDcxMjJmNjc3YTEwNzY0Nzg=",
     "testFrameworks": [
       "gatling"
     ],
