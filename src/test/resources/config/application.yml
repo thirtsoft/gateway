@@ -51,6 +51,11 @@ spring:
             hibernate.generate_statistics: true
             hibernate.hbm2ddl.auto: validate
             hibernate.jdbc.time_zone: UTC
+    data:
+        elasticsearch:
+            properties:
+                path:
+                    home: target/elasticsearch
     liquibase:
         contexts: test
     mail:
@@ -93,7 +98,7 @@ jhipster:
         authentication:
             jwt:
                 # This token must be encoded using Base64 (you can type `echo 'secret-key'|base64` on your command line)
-                base64-secret: MjE4NDg4OTI5OGY2MjY5YmFkYzY2ZWQxMTcyN2I0MzhlOTY3MmFiMTBkODkxZTgwMmRkNmY4MDY1MGNjYmNjZGQ4ZmFhYTlkZGM2Zjc4YTdhMTYyMzE2NzA3Y2E3YzFmYTdjMzQ3ZmNjNDMxMzcyZDcxMjJmNjc3YTEwNzY0Nzg=
+                base64-secret: NGFiZTg2MzUxNzllZThjZjQxNzg4YzQzYzJhZmE1ZjIwODY0ODUzZTYxNDlkZmU4Nzc1MWE4MTU3NjlkYmEzZTYzOTk2NjA3NzRlYWQwZTU2MmMxOTVjNGRiMGNiYjc0NWI0MzJhOTJhOWExOTkwMzQxYjFmYWQ4NzQyMWQ1MDc=
                 # Token is valid 24 hours
                 token-validity-in-seconds: 86400
     metrics: # DropWizard Metrics configuration, used by MetricsConfiguration

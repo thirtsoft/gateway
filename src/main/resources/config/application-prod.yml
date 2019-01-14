@@ -54,6 +54,9 @@ spring:
             hibernate.cache.use_second_level_cache: false
             hibernate.cache.use_query_cache: false
             hibernate.generate_statistics: false
+    data:
+        jest:
+            uri: http://localhost:9200
     liquibase:
         contexts: prod
     mail:
@@ -131,7 +134,7 @@ jhipster:
                 # - In the JHipster Registry (which includes a Spring Cloud Config server)
                 # - In a separate `application-prod.yml` file, in the same folder as your executable WAR file
                 # - In the `JHIPSTER_SECURITY_AUTHENTICATION_JWT_BASE64_SECRET` environment variable
-                base64-secret: MjE4NDg4OTI5OGY2MjY5YmFkYzY2ZWQxMTcyN2I0MzhlOTY3MmFiMTBkODkxZTgwMmRkNmY4MDY1MGNjYmNjZGQ4ZmFhYTlkZGM2Zjc4YTdhMTYyMzE2NzA3Y2E3YzFmYTdjMzQ3ZmNjNDMxMzcyZDcxMjJmNjc3YTEwNzY0Nzg=
+                base64-secret: NGFiZTg2MzUxNzllZThjZjQxNzg4YzQzYzJhZmE1ZjIwODY0ODUzZTYxNDlkZmU4Nzc1MWE4MTU3NjlkYmEzZTYzOTk2NjA3NzRlYWQwZTU2MmMxOTVjNGRiMGNiYjc0NWI0MzJhOTJhOWExOTkwMzQxYjFmYWQ4NzQyMWQ1MDc=
                 # Token is valid 24 hours
                 token-validity-in-seconds: 86400
                 token-validity-in-seconds-for-remember-me: 2592000
